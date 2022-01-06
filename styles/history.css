@@ -1,0 +1,21 @@
+#oldhope {
+	width:40%;
+}
+
+#oldhope2 {
+	width:40%;
+}
+
+#diamond {
+	width:40%;
+}
+
+.pics {
+	border: solid 2px;
+	border-color:#049c78;
+}
+
+#timeline li{
+	text-align: left;
+	list-style-image: url(../images/favicon.ico)
+}

@@ -1,0 +1,44 @@
+@page {
+	size: 8.5in 11in portrait;
+	margin: 0.5in;
+}
+
+nav, header, address, #back {
+	display: none;
+}
+h3, h2 {
+	box-shadow: none;
+}
+article {
+	font-family: sans-serif;
+	border: none;
+	text-align: justify;	
+}
+
+img {
+	position: center;
+}
+
+section {
+	page-break-before: always;
+}
+
+#back1{
+	display: none;
+}
+
+audio {
+	display: none;
+}
+
+video {
+	display:none;
+}
+
+iframe {
+	display:none;
+}
+
+legend {
+	box-shadow: none;
+}
