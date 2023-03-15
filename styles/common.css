@@ -38,9 +38,9 @@ a {
 nav {
 	margin:-10px;
 	box-shadow: 0 0 3px #000000;
-	background: linear-gradient(0deg, rgba(103,255,170,1) 0%, rgba(2,237,181,1) 100%);
+	background-color:white;
     text-align: center;
-	border-radius:10px;
+	border-radius:3em;
 	list-style-type: none;
   }
 

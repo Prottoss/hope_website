@@ -1,6 +1,5 @@
 iframe {
-	border:dashed 1px;
-	border-color: #049c78;
+	border: double 5px #000000;
 }
 #indexHope{
 	float:left;
@@ -14,6 +13,6 @@ audio{
 }
 
 video {
-	border: 5px solid rgb(2,237,181);
+	border: 5px solid rgb(61, 61, 61);
 	box-shadow: 0 0 5px #000000;
 }
