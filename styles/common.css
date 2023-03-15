@@ -1,11 +1,11 @@
 @font-face {
 	font-family: "BodyFont";
-	src: url("fonts/OpenSans-Regular.ttf");
+	src: url("fonts/Montserrat-VariableFont_wght.ttf");
 }
 
 @font-face {
 	font-family: "MenuFont";
-	src: url("fonts/Montserrat-Light.ttf");
+	src: url("fonts/Montserrat-VariableFont_wght.ttf");
 }
 
 body{
@@ -36,16 +36,15 @@ a {
 }
 
 nav {
+	font-variant-caps: all-small-caps;
 	margin:-10px;
-	box-shadow: 0 0 3px #000000;
 	background-color:white;
     text-align: center;
-	border-radius:3em;
 	list-style-type: none;
   }
 
 nav li {
-	font-size:22px;
+	font-size:25px;
 	width:150px;
 	position:relative;
 	padding:10px;
@@ -53,14 +52,12 @@ nav li {
 }
 
 nav ul li ul {
-	box-shadow: 0 0 10px #000000;
-	background: linear-gradient(0deg, rgba(107,255,216,1) 0%, rgba(147,227,255,1) 100%);
+	background-color: #ffffff;
 	position: absolute;
 	padding:1px;
 	margin-top:2px;
 	margin-left:-10px;
 	top:102%;
-	border-radius:1em;
 	display: none;
 }
 
@@ -71,21 +68,16 @@ nav ul li ul {
 #back2 {
 	font-size:20px;
 	padding:15px;
-	background: linear-gradient(0deg, rgba(103,255,170,1) 0%, rgba(2,237,181,1) 100%);
-	border-radius:3em;
-	box-shadow: 0 0 2px #000000;
+	background-color:#C0D6B7;
 }
 
 #back2:hover{
-	box-shadow:inset 0 0 5px #000000;
-	background: linear-gradient(0deg, rgba(147,220,255,1) 0%, rgba(0,246,185,1) 100%);
-    transition: all 300ms cubic-bezier(0.25, 0.50, 0.75, 1);
+	background-color: #AFCFA2;
 }
 
 .btn:hover {
-	border-radius:3em;
-	box-shadow:inset 0 0 5px #000000;
-	background: linear-gradient(0deg, rgba(147,220,255,1) 0%, rgba(0,246,185,1) 100%);
+	
+	background-color:#C0D6B7;
     transition: all 300ms cubic-bezier(0.25, 0.50, 0.75, 1);
 }
 
@@ -94,23 +86,19 @@ nav ul li ul {
 }
 
 .btnsub {
-	border-radius:3em;
 }
 
 .btnsub:hover {
 	transition: all 300ms cubic-bezier(0.25, 0.50, 0.75, 1);
-	box-shadow:inset 0 0 5px #000000;
-	background: linear-gradient(0deg, rgba(103,255,170,1) 0%, rgba(2,237,181,1) 100%);
+	background-color:#C0D6B7;
 }
 
 .current {
-	border-radius:3em;
-	box-shadow:inset 0 0 5px #000000;
-	background: linear-gradient(0deg, rgba(255,107,157,1) 0%, rgba(255,147,147,1) 100%);
+	background-color:#D9E5B3;
 }
 
 .btn:active, .btnsub:active, #back2:active {
-	background: linear-gradient(0deg, rgba(255,107,157,1) 0%, rgba(255,147,147,1) 100%);
+	background-color:#C0D6B7;
 }
 
 
@@ -119,8 +107,6 @@ article {
 	margin-top: 10px;
 	padding-left: 5px;
 	padding-right: 5px;
-	border-top: 1px solid #049c78;
-	border-bottom: 1px solid #049c78;
 	border-radius: 10px;
 }
 
@@ -130,32 +116,28 @@ p {
 
 img {
 	margin:10px;
-	border: solid 2px;
-	border-color: black;	
 }
 
 h2 {
-	font-family:'MenuFont';
-	box-shadow: 0 0 2px #000000;
+	font-variant-caps: all-small-caps;
 	text-align:left;
-	font-size: 32px;
+	font-size: 25px;
 	letter-spacing: 3px;
 	text-indent: 30px;
-	background: linear-gradient(0deg, rgba(103,255,170,1) 0%, rgba(2,237,181,1) 100%);
-	border-radius: 10px;
+	background-color:#AFCFA2;
 }
 
 h3 {
 	font-family:'MenuFont';
 	text-align:left;
 	text-indent:70px;
-	box-shadow: 0 0 2px #000000;
 	width: 350px;
-	background: linear-gradient(0deg, rgba(103,255,170,1) 0%, rgba(2,237,181,1) 100%);
+	background-color:#AFCFA2;
 	border-radius:10px;
 }
 
 address {
+	font-variant-caps: all-small-caps;
 	height:60px;
 	text-align: center;
 	font: normal 11px;

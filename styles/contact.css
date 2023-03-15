@@ -1,4 +1,5 @@
 label {
+
 	width: 200px;
 	margin-right: 30px;
 	margin-bottom:10px;
@@ -7,9 +8,9 @@ label {
 
 legend {
 	box-shadow: 0 0 2px #000000;
-	border-radius: 5px;
+	border-radius:2em;
 	padding:3px 15px 3px 15px;
-	background-color:beige;
+	background-color:#C0D6B7;
 	text-align: left;
 	margin-bottom:5px;
 	margin-left:100px;
@@ -28,8 +29,8 @@ fieldset {
 	margin-top: 10px;
 	padding-left: 10px;
 	padding-right: 10px;
-	border-top: 1px solid #049c78;
-	border-bottom: 1px solid #049c78;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
 	border-left: none;
 	border-right: none;
 	border-radius: 10px;
@@ -51,17 +52,15 @@ div {
 	border:none;
 	font-size:18px;
 	padding:10px 15px 10px 15px;
-	background: linear-gradient(0deg, rgba(103,255,170,1) 0%, rgba(2,237,181,1) 100%);
-	border-radius:10px;
-	box-shadow: 0 0 2px #000000;
+	background-color:#ffffff;
 }
 
 .button:hover {
-    box-shadow:inset 0 0 5px #000000;
-	background: linear-gradient(0deg, rgba(147,220,255,1) 0%, rgba(0,246,185,1) 100%);
+    
+	background-color:#AFCFA2;
     transition: all 300ms cubic-bezier(0.25, 0.50, 0.75, 1);
 }
 
 .button:active {
-	background: linear-gradient(0deg, rgba(255,107,157,1) 0%, rgba(255,147,147,1) 100%);
+	background-color:#AFCFA2;
 }
